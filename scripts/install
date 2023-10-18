@@ -32,8 +32,8 @@ ynh_script_progression --message="Adding system configurations related to $app..
 ynh_add_nginx_config
 
 # Create a dedicated systemd config
-ynh_add_systemd_config --service=rustdesk-server --template=rustdesk-server
-ynh_add_systemd_config --service=rustdesk-hbbs --template=rustdesk-hbbs
+ynh_add_systemd_config --service=rustdesk-server --template=rustdesk-server.service
+ynh_add_systemd_config --service=rustdesk-hbbs --template=rustdesk-hbbs.service
 
 yunohost service add rustdesk-server --description="A short description of the app" --log="/var/log/$app/$app.log"
 yunohost service add rustdesk-hbbs --description="A short description of the app" --log="/var/log/$app/$app.log"
