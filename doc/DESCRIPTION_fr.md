@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+RustDesk est une alternative de contrôle à distance open source complète pour l'auto-hébergement et la sécurité avec une configuration minimale.
