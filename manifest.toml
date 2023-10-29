@@ -5,7 +5,7 @@ packaging_format = 2
 id = "rustdesk-server"
 name = "Rustdesk server"
 description.en = "Remote control alternative for self-hosting"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.fr = "Alternative de contrôle à distance pour l'auto-hébergement"
 
 version = "1.0~ynh1"
 
